@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>上传文件示例</title>
+    <meta charset="UTF-8"/>
+    <script type="text/javascript" src='javascripts/jquery-1.8.1.min.js'></script>
+    <script type="text/javascript" src='javascripts/file_upload.js'></script>
+</head>
+<body>
+<h1>上传文件</h1>
+<div id="progress"></div>
+<input type='file' id='myFile'>
+<input type="button" id="uploadButton" value="上传" disabled>
+<div id='showImage'></div>
+<script>
+    init($('#myFile'), $('#uploadButton'));
+</script>
+</body>
+</html>
